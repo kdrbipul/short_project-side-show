@@ -26,6 +26,19 @@ body{
     position: absolute;
     top: 25px;
     right: 30px;
+    border-left: 6px solid #4070f4;
+}
+
+.toast-content .check{
+    height: 35px;
+    width: 35px;
+    background-color: #4070f4;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .toast .toast-content{
@@ -33,5 +46,11 @@ body{
     align-items: center;
 }
 .toast-content .message{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.message .text{
     
 }
